@@ -7,7 +7,11 @@ Even though the education sector has been keeping up to speed with the advanceme
 
 Project Methodology
 
+![image](https://user-images.githubusercontent.com/86551004/187088239-375faf9d-807e-45e9-a037-50d6b1daf300.png)
+
 Data preparation
+
+![image](https://user-images.githubusercontent.com/86551004/187088253-c9993d54-2ef4-400d-a95b-999b57756f81.png)
 
 Exploratory data analysis
 
