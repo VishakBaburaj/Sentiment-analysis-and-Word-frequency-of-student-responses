@@ -55,22 +55,16 @@ Tableau is used to visually present the findings.
 
 Techniques Adopted
 
-Text Pre-processing
 Text preprocessing is a technique used to clean textual data to a form where Natural Language Processing can be analyzed, and the results can be accurate. 
 The following are the significant text preprocessing techniques Stop Words removal, Word tokenization, Parts of speech tagging lemmatization, and stemming, Term frequency Inverse document frequency (TFIDF).
 
-Sentiment Analysis
 Sentiment analysis describes whether a particular text is negative, positive, or neutral sentiment. It helps in classifying the opinions of students into negative, positive, or neutral sentiment. To do so Lexicon-based sentiment analysis has been used. A lexicon sentiment is a list of lexicon words labeled according to their semantic orientation, positive, negative or neutral. 
 
-Word Frequency
 Word Frequency helps measure how many times a particular word has been used in qualitative data. This can help in identifying the most expressed emotions from the student’s responses.
 
-Word Combinations
 Word combination helps to identify what type of combinations are used most while a student describes their emotions.
 
-Topic Modelling
 Topic modeling helps in organizing and clustering the qualitative data by subject or theme. A text mining technique will identify the patterns of word co-occurrence across a corpus of documents. This technique is used to determine the mental health of why the students want the exams to be canceled or conducted on a later date.
-
 
 Findings
 
