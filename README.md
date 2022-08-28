@@ -1,4 +1,4 @@
-Sentiment Analysis and Topic Modeling of student responses.
+Sentiment Analysis and Topic Modeling Approach of student responses.
 
 Problem Statement
 
