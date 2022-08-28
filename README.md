@@ -91,3 +91,12 @@ Findings
 
 ![image](https://user-images.githubusercontent.com/86551004/187086579-a3f78802-3a3b-4039-b1ca-2e47ec4c14e1.png)
 
+![Reason_cancelling_response Topic 1](https://user-images.githubusercontent.com/86551004/187098147-09c995f4-016e-4c3c-8226-eca7f2d0a8be.jpeg)
+
+![Reason_cancelling_response Topic 2](https://user-images.githubusercontent.com/86551004/187098154-d3a76ad2-2dfc-4d34-9328-49c088bfb341.jpeg)
+
+![Reason_conduct_late_response Topic 1](https://user-images.githubusercontent.com/86551004/187098161-2d8b2659-d12c-40dd-8c89-681018205f4e.jpeg)
+
+![Reason_conduct_late_response Topic 2](https://user-images.githubusercontent.com/86551004/187098164-c87519f2-0f77-4194-874b-b4a05c2cafd2.jpeg)
+
+
