@@ -57,9 +57,13 @@ Tableau is used to visually share the insights of the project.
 Techniques Adopted
 
 Text preprocessing is a technique used to clean textual data to a form where Natural Language Processing can be analyzed, and the results can be accurate.
+
 Sentiment analysis describes whether a particular text is negative, positive, or neutral sentiment. It helps in classifying the opinions of students into negative, positive, or neutral sentiment. To do so Lexicon-based sentiment analysis has been used. A lexicon sentiment is a list of lexicon words labeled according to their semantic orientation, positive, negative or neutral. 
+
 Word Frequency helps measure how many times a particular word has been used in qualitative data. This can help in identifying the most expressed emotions from the students responses.
+
 Word combination helps to identify what type of combinations are used most while a student describes their emotions.
+
 Topic modeling helps in organizing and clustering the qualitative data by subject or theme. A text mining technique will identify the patterns of word co-occurrence across a corpus of documents. This technique is used to determine the mental health of why the students want the exams to be canceled or conducted on a later date.
 
 Modeling
@@ -80,6 +84,7 @@ The next step is in adopting the LDA training and testing model. To run a topic 
 Testing and Validation
 
 The perplexity score helps in deciding how well the topic modeling is. It is used for the language evaluation model. The lesser the perplexity score, the better the LDA model. Perplexity is not correlated with human judgment. Here the perplexity is -5.79, which is very good as the perplexity is in the negatives.
+
 The coherence score helps in identifying how well a word is placed in a topic. Here the coherence score is 60% which is good comparatively.
 
 Findings
