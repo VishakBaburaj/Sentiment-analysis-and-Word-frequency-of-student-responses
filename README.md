@@ -66,6 +66,34 @@ Word combination helps to identify what type of combinations are used most while
 
 Topic modeling helps in organizing and clustering the qualitative data by subject or theme. A text mining technique will identify the patterns of word co-occurrence across a corpus of documents. This technique is used to determine the mental health of why the students want the exams to be canceled or conducted on a later date.
 
+Model
+
+Sentiment Analysis	
+
+To identify the sentiments of students. There are different methods in Lexicon-based sentiment analysis. The appropriate way based on the data is Vader lexicon sentiment analysis. VADER stands for Valence Aware Dictionary and sEntiment Reasoned. It is a rule-based sentiment analysis framework. For Vader sentiment analysis, specific scores have been associated with words, emoticons, and even slang words in the library, making it easier for analytics (Sarkar, 2019). Furthermore, the Vader sentiment analysis can be called out in python with the essential function SentimentIntensityAnalyser. The function will give an output containing negative, positive, and neutral scores in a text and sum that up in the compound score, determining whether the entire text is in positive, negative, or neutral sentiment.
+Analyzing further, a condition has been given to understand the numeric representation in the textural form, whether a text is negative, positive, or neutral. If the compound score is greater than 0, then it is a positive sentiment. If the compound score is less than 0, it is a negative sentiment. If both these conditions are not followed, it will lead to a neutral sentiment in which the compound score is 0.
+
+Word Frequencies
+
+After finding the sentiment, the following analysis is to identify the word frequency of each feeling. To develop the frequency, the semicolon punctuation is replaced with a comma to separate the words. Here we cannot use the phrase tokenization as there are two sentences in the feelings category, which are “Inability to concentrate” and “More time for preparation” So, to divide the words, coding was used. The result of the word frequency is based on how many times a particular term has been used in each sentiment.
+
+Word Combinations
+
+Analysis to find out the combination of words used to describe the feelings of students. First, feelings such as the Inability to concentrate have been replaced for its short-form ITC, and More time for preparation has also been replaced with its short-form MTFP. It is then assigning a new variable to calculate the total number of words used in a response containing the feelings described by each student.
+A condition is given to extract the mixed feelings combinations. A condition is given, to the compound score between -0.4 and 0.4 can be considered mixed sentiments. Extracting these data and grouping is based on the number of words.
+
+Topic Modeling
+
+The topic modeling has been done individually to both the response's reasons for canceling and conducting late. 
+After cleaning the textural data, the first step in achieving the results of Topic Modelling is to input a training LDA model. Converting the cleaned data into corpus and dictionary. The main objective of the corpus is to map the word id (unique id) and word frequency of words from each document in a dictionary.
+TFIDF object, which gives an output of how relevant a term is in the document and then applies this transformation into the existing corpus, is the unique words from the documents. This helps in achieving much more accuracy for the topic modeling results.
+The next step is in adopting the LDA training and testing model. To run a topic model, the assumption of the topic is needed to be assigned to the corpus sensibly. Another parameter is the hyperparameters alpha and beta that affect the sparsity of topics. Chunk size is the number of topics to be used in the training model. Here the chunk size is the total sample size because the data has been collected through google form as unstructured data. Passed is the total number of training passes to the model.
+
+Testing and Validation
+
+The perplexity score helps in deciding how well the topic modeling model is. It is used for the language evaluation model. The lesser the perplexity score, the better the LDA model. Perplexity is not correlated with human judgment. Here the perplexity is -5.79, which is very good as the perplexity is in the negatives.
+The coherence score helps in identifying how well a word is placed in a topic. Here the coherence score is 60% which is good comparatively.
+
 Findings
 
 ![image](https://user-images.githubusercontent.com/86551004/187086579-a3f78802-3a3b-4039-b1ca-2e47ec4c14e1.png)
