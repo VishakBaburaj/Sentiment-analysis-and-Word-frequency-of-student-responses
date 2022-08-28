@@ -11,7 +11,7 @@ Project Methodology
 
 Data preparation
 
-![image](https://user-images.githubusercontent.com/86551004/187088253-c9993d54-2ef4-400d-a95b-999b57756f81.png)
+![image](https://user-images.githubusercontent.com/86551004/187088312-3881c614-fb85-49d1-94e6-6b2ed1c39e3c.png)
 
 Exploratory data analysis
 
