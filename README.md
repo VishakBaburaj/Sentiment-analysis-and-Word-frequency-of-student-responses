@@ -11,51 +11,79 @@ The harsh reality of the Indian education system eventually curates most decisio
 
 # Objectives
 
-The first objective is to identify the sentiments of each student based on their responses.
+1) To identify the sentiments of each student based on their responses.
 
-The second objective is to identify how many times a certain emotion has been used by the students.
+2) To identify how many times a certain emotion has been used by the students.
 
-The third objective is to identify the number of times a student has used a combination of emotions.
+3) To identify the number of times a student has used a combination of emotions.
 
-The fourth objective is to understand the mental health of students who want the exams to be conducted later or canceled.
+4) To understand the mental health of students who want the exams to be conducted later or canceled.
 
 # Project Approach
 
 ## Research approach
 
-Based on the project, the most appropriate research approach to conduct is the qualitative research approach, where the data collected will be in a textual format. Qualitative research helps us identify societal phenomena from a participants point of view.
-Several methods are used to conduct qualitative research recommended in five main ways: Case Studies, Grounded theory, Ethnography, Content analysis, and Phenomenological study. The method adopted is the phenomenological study determined to understand the experience of a particular event from the participants point of view.
+Based on the project, the most appropriate research approach to conduct is the qualitative research approach, where the data collected will be in a textual format.
+
+Qualitative research helps us identify societal phenomena from a participants point of view.
+
+Several methods are used to conduct qualitative research recommended in five main ways: Case Studies, Grounded theory, Ethnography, Content analysis, and Phenomenological study. 
+
+The method adopted is the phenomenological study determined to understand the experience of a particular event from the participants point of view.
 
 ## Data Collection
 
-Data collection has been done through a primary source of data the survey method. Google Form is the best choice to distribute the survey considering the COVID-19 situation in 2021. Data collection is done through the snowball sampling technique where primary contacts are asked to distribute the google form to their target acquaintances.
+Data collection has been done through a primary source of data the survey method. 
+
+Google Form is the best choice to distribute the survey considering the COVID-19 situation in 2021. 
+
+Data collection is done through the snowball sampling technique where primary contacts are asked to distribute the google form to their target acquaintances.
 
 ## Data Understanding
 
 The google form consists of four sections. 
 The first section comprises three questions related to which board the students are studying in, how they feel about their board exams and their opinions on whether to cancel or conduct the exams later. All three questions are definite, and the students are given an option to choose within the mentioned choices. 
+
 The second section consists of one question as to why they want the board exams to be canceled. This section will only be redirected only if the students opinion is to cancel the exams. 
+
 The third section consists of one question to state why they want their exams to be conducted later. This section will only be redirected only if the students opinion is to conduct the exams later. 
+
 The students can type their reasons in short or long answers for both the second and third sections. 
+
 And finally, the fourth section consists of one question which state the respondents are from.
 
 ## Tools and Programming language adopted.
 
 Python libraries used for data analysis are 
-Pandas,
-Numpy,
-Re used to check whether a string matches a regular expression to remove punctuations in the data frame, 
+
+Pandas.
+
+Numpy.
+
+Re used to check whether a string matches a regular expression to remove punctuations in the data frame. 
+
 From the autocorrect library Speller is used to correcting the spelling mistakes in the data frame. 
-nltk a Natural Language Processing library, 
+
+nltk a Natural Language Processing library. 
+
 From nltk.tokenize, word_tokenize to split the sentences into words.
+
 From nltk.stem.wordnet, WordNetLemmatizer used to Lemmatize the words into one form. 
+
 From nltk.corpus, stopwords to remove stopwords such as ‘the’.
+
 From vaderSentiment.vaderSentiment, SentimentIntensityAnalyzer to identify the sentiments of each response in the data frame. 
-Gensim for topic modeling, 
-Import gensim.corpora for creating corpora for topic modeling
-From gensim.models CoherenceModel to identify the accuracy of the topic modeling
+
+Gensim for topic modeling.
+
+Import gensim.corpora for creating corpora for topic modeling.
+
+From gensim.models CoherenceModel to identify the accuracy of the topic modeling.
+
 PyLDAvis and pyLDAvis.gensim_models to visualize the topic modeling.
+
 Microsoft Excel is used to export the analyzed data of sentiment analyze and visualize basic insights.
+
 Tableau is used to visually share the insights of the project.
 
 ## Techniques Adopted
@@ -72,19 +100,23 @@ Word Frequency helps measure how many times a particular word has been used in q
 ### Word combination
 Word combination helps to identify what type of combinations are used most while a student describes their emotions.
 
-###Topic modeling
+### Topic modeling
 Topic modeling helps in organizing and clustering the qualitative data by subject or theme. A text mining technique will identify the patterns of word co-occurrence across a corpus of documents. This technique is used to determine the mental health of why the students want the exams to be canceled or conducted on a later date.
 
 # Analysis
 
+### Sentiment analysis
 To identify the sentiments of students. There are different methods in Lexicon-based sentiment analysis. The appropriate method based on the data is Vader lexicon sentiment analysis. VADER stands for Valence Aware Dictionary and sEntiment Reasoned. It is a rule-based sentiment analysis framework. For Vader sentiment analysis, specific scores have been associated with words, emoticons, and even slang words in the library, making it easier for analytics. Furthermore, the Vader sentiment analysis can be called out in python with the essential function SentimentIntensityAnalyser. The function will give an output containing negative, positive, and neutral scores in a text and sum that up in the compound score, determining whether the entire text is in positive, negative, or neutral sentiment.
 Analyzing further, a condition has been given to understand the numeric representation in the textual form, whether a text is negative, positive, or neutral. If the compound score is greater than 0, then it is a positive sentiment. If the compound score is less than 0, it is a negative sentiment. If both these conditions are not followed, it will lead to a neutral sentiment in which the compound score is 0.
 
+### Word Frequency
 After finding the sentiment, the following analysis is to identify the word frequency of each emotions. To develop the frequency, the semicolon punctuation is replaced with a comma to separate the words. Here we cannot use the phrase tokenization as there are two sentences in the emotions category, which are “Inability to concentrate” and “More time for preparation” So, to divide the words, short forms were used. The result of the word frequency is based on how many times a particular keyword has been used in each sentiment.
 
+### Word Combination
 Analysis to find out the combination of words used to describe the emotions of students. First, emotions such as the Inability to concentrate have been replaced for its short-form ITC, and More time for preparation has also been replaced with its short-form MTFP. It is then assigning a new variable to calculate the total number of words used in a response containing the emotions described by each student.
 A condition is given to extract the mixed emotions combinations. If the compound score is between -0.4 and 0.4 it was considered as mixed sentiments. Extracting these data and grouping is based on the number of words.
 
+### Topic modeling
 Topic modeling has been done individually to both the responses reasons for canceling and conducting late. 
 After cleaning the textural data, the first step in achieving the results of Topic Modelling is to input a training LDA model. Converting the cleaned data into corpus and dictionary. The main objective of the corpus is to map the word id (unique id) and word frequency of words from each document in a dictionary.
 TFIDF object, which gives an output of how relevant a term is in the document and then applies this transformation into the existing corpus, is the unique words from the documents. This helps in achieving much more accuracy for the topic modeling results.
@@ -92,8 +124,10 @@ The next step is in adopting the LDA training and testing model. To run a topic 
 
 # Testing and Validation
 
+### Perplexity
 The perplexity score helps in deciding how well the topic modeling is. It is used for the language evaluation model. The lesser the perplexity score, the better the LDA model. Perplexity is not correlated with human judgment. Here the perplexity is -5.79, which is very good as the perplexity is in the negatives.
 
+### Coherence
 The coherence score helps in identifying how well a word is placed in a topic. Here the coherence score is 60% which is good comparatively.
 
 # Findings and Insights
