@@ -162,10 +162,10 @@ https://public.tableau.com/app/profile/vishak.bbauraj/viz/Sentimentanalysisonstu
 
 #### The total number of students is distributed based on their syllabus.
 1) Total number of respondents from state board were 24566. Out of which, 21638 of the students had negative sentiment. 2062 of the students had positive sentiment. 866 of the students had neutral sentiment.
-2) Total number of respondents from CBSE board were 16580. Out of which, 16046 of the students had negative sentiment. 408 of the students had positive sentiment. 866 of the students had neutral sentiment.
-3) Total number of respondents from ICSE board were 1126. Out of which, 1085 of the students had negative sentiment. 29 of the students had positive sentiment. 866 of the students had neutral sentiment.
-4) Total number of respondents from IB board were 10. Out of which, 8 of the students had negative sentiment. 2 of the students had positive sentiment. 866 of the students had neutral sentiment.
-5) Total number of respondents from any other boards were 351. Out of which, 295 of the students had negative sentiment. 41 of the students had positive sentiment. 866 of the students had neutral sentiment.
+2) Total number of respondents from CBSE board were 16580. Out of which, 16046 of the students had negative sentiment. 408 of the students had positive sentiment. 126 of the students had neutral sentiment.
+3) Total number of respondents from ICSE board were 1126. Out of which, 1085 of the students had negative sentiment. 29 of the students had positive sentiment. 12 of the students had neutral sentiment.
+4) Total number of respondents from IB board were 10. Out of which, 8 of the students had negative sentiment. 2 of the students had positive sentiment. 0 students had neutral sentiment.
+5) Total number of respondents from any other boards were 351. Out of which, 295 of the students had negative sentiment. 41 of the students had positive sentiment. 15 of the students had neutral sentiment.
 
 #### The total numer of students is distributed based on their opinions.
 1) 30132 of the students had an opinion to cancel the exams. Out of which, 28322 of the students had negative sentiment. 1545 of the students had positive sentiment. 265 of the students had neutral sentiment.
