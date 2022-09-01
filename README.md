@@ -40,7 +40,7 @@ The google form consists of four sections.
 3) The third section consists of one question to state why they want their exams to be conducted later. This section will only be redirected only if the students opinion is to conduct the exams later. The students can type their reasons in short or long answers for both the second and third sections.
 4) The fourth section consists of one question which state the respondents are from.
 
-## Tools and Programming language adopted.
+## Tools and libraries adopted.
 
 Python libraries used for data analysis are 
 
@@ -70,9 +70,9 @@ From gensim.models CoherenceModel to identify the accuracy of the topic modeling
 
 PyLDAvis and pyLDAvis.gensim_models to visualize the topic modeling.
 
-Microsoft Excel is used to export the analyzed data of sentiment analyze and visualize basic insights.
+Microsoft Excel is used to export and visualize the analyzed data of sentiment analysis.
 
-Tableau is used to visually share the insights of the project.
+Tableau is used to visually share the insights of the project in a dashboard.
 
 ## Techniques Adopted
 
