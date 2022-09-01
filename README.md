@@ -7,7 +7,7 @@ Even though the education sector has been keeping up to speed with the advanceme
 
 Significance of the project
 
-The harsh reality of the Indian education system eventually curates most decisions where students do not hold much of a role in conclusions drawn for them. Thus, this project stands as a platform for their voices as it is necessary to research students perspectives. This also constitute other factors such as their parents opinions and support. Even supposing the stance is not offline, this could be dissatisfying for some, maybe a relief for others, but what stands of utmost importance is the overall uneasiness and concern that should not be unheard.
+The harsh reality of the Indian education system eventually curates most decisions where students do not hold much of a role in conclusions drawn for them. Thus, this project stands as a platform for their voices as it is necessary to research students perspectives. Even supposing the stance is not offline, this could be dissatisfying for some, maybe a relief for others, but what stands of utmost importance is the overall uneasiness and concern that should not be unheard.
 
 Objectives
 
