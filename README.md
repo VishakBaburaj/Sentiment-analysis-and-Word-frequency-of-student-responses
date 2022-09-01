@@ -179,16 +179,22 @@ https://public.tableau.com/app/profile/vishak.bbauraj/viz/Sentimentanalysisonstu
 
 ![Reason_cancelling_response Topic 1](https://user-images.githubusercontent.com/86551004/187098147-09c995f4-016e-4c3c-8226-eca7f2d0a8be.jpeg)
 
+The above topic modelling visualization shows the factors affecting the student’s perception of cancelling the board exams offline.
+
 ### Reasons for canceling exams Topic 2
 
 ![Reason_cancelling_response Topic 2](https://user-images.githubusercontent.com/86551004/187098154-d3a76ad2-2dfc-4d34-9328-49c088bfb341.jpeg)
+
+The above topic modelling visualization shows the mental factors affecting the student’s perception on cancelling the board exams offline.
 
 ### Reasons for conducting exam later Topic 1
 
 ![Reason_conduct_late_response Topic 1](https://user-images.githubusercontent.com/86551004/187098161-2d8b2659-d12c-40dd-8c89-681018205f4e.jpeg)
 
+The above topic modelling visualization shows the mental factors affecting the student’s perception on conducting the board exams on a later date.
+
 ### Reasons for conducting exam later Topic 2
 
 ![Reason_conduct_late_response Topic 2](https://user-images.githubusercontent.com/86551004/187098164-c87519f2-0f77-4194-874b-b4a05c2cafd2.jpeg)
 
-
+The above topic modelling visualization shows the factors affecting the student’s perception on conducting the board exams on a later date.
