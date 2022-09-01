@@ -94,7 +94,7 @@ Tableau is used to visually share the insights of the project in a dashboard.
 2) A text mining technique will identify the patterns of word co-occurrence across a corpus of documents. 
 3) This technique is used to determine the mental health of why the students want the exams to be canceled or conducted on a later date.
 
-# Analysis
+# Data Analysis
 
 ### Sentiment analysis 
 1) The appropriate method based on the data is Vader lexicon sentiment analysis. 
