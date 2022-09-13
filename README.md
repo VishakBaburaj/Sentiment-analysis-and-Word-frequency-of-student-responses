@@ -41,19 +41,33 @@ The google form consists of four sections.
 ## Tools and libraries adopted.
 
 1) Python libraries used for data analysis are 
+
 a) Pandas.
+
 b) Numpy.
+
 c) Re used to check whether a string matches a regular expression to remove punctuations in the data frame. 
+
 d) From the autocorrect library Speller is used to correcting the spelling mistakes in the data frame. 
+
 e) nltk a Natural Language Processing library. 
+
 f) From nltk.tokenize, word_tokenize to split the sentences into words.
+
 g) From nltk.stem.wordnet, WordNetLemmatizer used to Lemmatize the words into one form. 
+
 h) From nltk.corpus, stopwords to remove stopwords such as ‘the’.
+
 i) From vaderSentiment.vaderSentiment, SentimentIntensityAnalyzer to identify the sentiments of each response in the data frame. 
+
 j) Gensim for topic modeling.
+
 k) Import gensim.corpora for creating corpora for topic modeling.
+
 l) From gensim.models CoherenceModel to identify the accuracy of the topic modeling.
+
 m) PyLDAvis and pyLDAvis.gensim_models to visualize the topic modeling.
+
 2) Microsoft Excel is used to export and visualize the analyzed data of sentiment analysis.
 3) Tableau is used to visually share the insights of the project in a dashboard.
 
