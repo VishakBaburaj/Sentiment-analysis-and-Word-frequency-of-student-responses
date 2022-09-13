@@ -12,9 +12,7 @@ The harsh reality of the Indian education system eventually curates most decisio
 # Objectives
 
 1) To identify the sentiments of each student based on their responses.
-2) To identify how many times a certain emotion has been used by the students.
-3) To identify the number of times a student has used a combination of emotions.
-4) To understand the mental health of students who want the exams to be conducted later or canceled.
+2) To understand the mental health of students who want the exams to be conducted later or canceled.
 
 # Project Approach
 
