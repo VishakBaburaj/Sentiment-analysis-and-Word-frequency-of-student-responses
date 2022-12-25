@@ -1,4 +1,4 @@
-# Sentiment Analysis and Topic Modeling Approach of student responses.
+# Sentiment Analysis and Word Frequency Analysis.
 
 # Problem Statement
 
