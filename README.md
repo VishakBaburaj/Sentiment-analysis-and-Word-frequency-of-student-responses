@@ -65,5 +65,5 @@ The google form consists of four sections.
 # Findings and Insights
 
 ## Sentiment Analysis and Word Frequency
-https://public.tableau.com/app/profile/vishak.bbauraj/viz/SentimentAnalysisonClass12StudentResponses/Student_Response_Dashboard
+https://public.tableau.com/app/profile/vishak.bbauraj/viz/SentimentAnalysisonClass12StudentResponses/Dashboard
 
