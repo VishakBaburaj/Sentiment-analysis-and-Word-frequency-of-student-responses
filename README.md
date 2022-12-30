@@ -62,8 +62,7 @@ The google form consists of four sections.
 2) To develop the frequency, the semicolon punctuation is replaced with a comma to separate the words. 
 3) The result of the word frequency is based on how many times a particular keyword or emotion has been used in each sentiment.
 
-# Findings and Insights
+# Tableau Dashboard Link
 
-## Sentiment Analysis and Word Frequency
 https://public.tableau.com/app/profile/vishak.bbauraj/viz/SentimentAnalysisonClass12StudentResponses/Dashboard
 
