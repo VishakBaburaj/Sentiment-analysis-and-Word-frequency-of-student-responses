@@ -66,3 +66,6 @@ The google form consists of four sections.
 
 https://public.tableau.com/app/profile/vishak.bbauraj/viz/SentimentAnalysisonClass12StudentResponses/Dashboard
 
+# Data Interpretation, Findings, and insights Link
+
+https://vishakbaburaj.carrd.co/#project1
